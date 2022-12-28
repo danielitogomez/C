@@ -4,6 +4,6 @@ COPY . /DockerWorld
 
 WORKDIR /DockerWorld/
 
-RUN gcc -o DockerWorld dockerworld.c
+RUN gcc -o DockerWorld sum.c
 
 CMD ["./DockerWorld"]
